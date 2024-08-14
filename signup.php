@@ -3,16 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eugene Crowley | Paris on my Mind</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Eugene Crowley</title>
+  <link rel="stylesheet" href="../css/styles.css">
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <?php include 'header.php'; ?>
 </head>
 <body>
-
-
+ 
   <main>
-    <?php include 'contact-content.php'; ?>
+    <?php include './auth/sigunp-content.php'; ?>
   </main>
 
   <footer>

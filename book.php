@@ -12,7 +12,7 @@
 
 
   <main>
-    <?php include 'contact-content.php'; ?>
+    <?php include 'about-paris-on-my-mind.php'; ?>
   </main>
 
   <footer>

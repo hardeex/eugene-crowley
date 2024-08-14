@@ -29,12 +29,12 @@
       <div class="col-md-4 mb-3">
         <h5>Quick Links</h5>
         <ul class="list-unstyled">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Books</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="book.php">Books</a></li>
+          <li><a href="about.php">About</a></li>
           <li><a href="#">Events</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
       

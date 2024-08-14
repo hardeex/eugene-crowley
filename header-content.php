@@ -3,54 +3,6 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
 
-<!-- Header content only -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" >
-  <div class="container">
-    <a class="navbar-brand" href="/">
-      <img src="images/logo.png" alt="Eugene Crowley | Paris on my mind" style="height: 80px;">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Books</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-
-      <div class="d-flex align-items-center" >
-        <div class="btn-group me-2">
-          <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Account
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Login</a></li>
-            <li><a class="dropdown-item" href="#">Signup</a></li>
-          </ul>
-        </div>
-
-        <a class="btn btn-primary" href="#" role="button">Buy Book</a>
-      </div>
-    </div>
-  </div>
-</nav>
 
 <section class="hero-section d-flex align-items-center" style="background-color: #f5f5f5; padding: 80px 0;" data-aos="fade-up">
   <div class="container">
