@@ -14,7 +14,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container">
     <a class="navbar-brand" href="../index.php">
-      <img src="./images/logo.png" alt="Eugene Crowley | Paris on my mind" style="height: 80px;">
+      <img src="./images/eugene-seeker-of-the-truth.jpg" alt="Eugene Crowley | Paris on my mind" style="height: 80px;">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="book.php">Books</a>
+          <a class="nav-link" href="all-books.php">Books</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>

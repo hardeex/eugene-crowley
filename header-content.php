@@ -9,7 +9,7 @@
     <div class="row align-items-center">
       <!-- Book Image Column -->
       <div class="col-lg-6 order-lg-2 text-center text-lg-start">
-        <img src="images/Enlighting-book.png" alt="Paris on My Mind by Eugene Crowley" class="img-fluid rounded-3">
+        <img src="images/eugene-paris-on-my-mind.png" alt="Paris on My Mind by Eugene Crowley" class="img-fluid rounded-3">
       </div>
 
       <!-- Text Column -->

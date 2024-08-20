@@ -24,6 +24,10 @@ a:active {
   color: var(--hover-color); 
 }
   
+
+p{
+    text-align: justify;
+}
   
 .navbar-light .navbar-nav .nav-link {
     color: var(--primary-color);
@@ -373,6 +377,12 @@ a:active {
   
       .newsletter-form button {
         width: 100%;
+      }
+
+      .book-cover {
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
       }
   }
 

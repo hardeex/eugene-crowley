@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eugene Crowley | Paris on my</title>
+  <title>Books By Eugene Crowley</title>
   <link rel="stylesheet" href="css/styles.css">
+
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <?php include 'header.php'; ?>
 </head>
@@ -12,7 +13,7 @@
 
 
   <main>
-    <?php include 'about-paris-on-my-mind.php'; ?>
+    <?php include 'all-books-content.php'; ?>
   </main>
 
   <footer>
@@ -22,3 +23,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
