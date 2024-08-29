@@ -4,6 +4,11 @@
   }
 
 
+  html {
+    scroll-behavior: smooth;
+}
+
+
 
 a {
   color: var(--primary-color); 
@@ -25,9 +30,9 @@ a:active {
 }
   
 
-p{
+/* p{
     text-align: justify;
-}
+} */
   
 .navbar-light .navbar-nav .nav-link {
     color: var(--primary-color);
@@ -349,6 +354,25 @@ p{
   }
   
 
+  .gallery-item {
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+
+.gap-section{
+  background-color: rgb(206, 206, 206) !important;
+  text-align: justify;
+}
  
   @media (max-width: 767.98px) {
 

@@ -22,7 +22,7 @@
 
 <!--- About the author section --->
 
-<section class="section-padding bg-light" data-aos="fade-up" >
+<section class="section-padding bg-light gap-section" data-aos="fade-up" >
   <div class="container">
     <h3 class="text-center mb-4">About the Author</h3>
     <div class="row align-items-center">
@@ -79,14 +79,80 @@
 
 
 <!-- Review Section -->
-<section class="section-padding" style="margin-top: 50px;" data-aos="fade-up">
+<section class="section-padding gap-section" data-aos="fade-up">
   <div class="container">
-    <h3>Book Review</h3>
-    <p>Racism on a global stage can be a touchy subject but now more than ever, it needs to be addressed. Aside from taking a closer look at James Baldwin’s life, how he defined racism and his coping strategies, Eugene Crowley stresses the importance of awakening the spiritual, not religious, part of our lives, similar to how past civilizations placed greater importance on the soul, which is divine in nature. In doing so, everyone, including blacks, whites, young, and old can use this wisdom to conquer their adversaries because when we rediscover our spiritual identity, we can live “more genuine, authentic, and peaceful lives.” This insightful and eye-opening book is full of history, soul searching, and useful advice, written in a language that everyone can understand and apply in their lives.</p>
-    <p>Highlights include Chapter Three: The American Madness where the author writes that racial conflict is not the ‘Negro problem,’ but rather ‘The American Madness’ and Chapter Five: Dwelling in Languages where he discusses how James Baldwin’s harsh language sometimes led to criticism, but primarily because people find it difficult to confront their irrational behaviors. One final piece of practical advice he gives about life is, “The best solution for boredom is to become active. Life was not meant to be lived in one space.” Overall, “Paris On My Mind” is an excellent examination of James Baldwin's life and works and a gentle reminder that to live a more peaceful life, we should strive for a more spiritual existence. It is recommended for fans of biographies, personal growth, spirituality, and practical life advice.</p>
+    <!-- <h3>Book Review</h3> -->
+    <div id="bookReviewCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <h5>Book Review</h5> 
+          <p>Racism on a global stage is a complex issue that needs urgent attention. This book offers a deep dive into James Baldwin’s life and his perspectives on racism.</p>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <h5>Spiritual Awakening</h5>
+          <p>Eugene Crowley emphasizes awakening the spiritual side of our lives, drawing parallels with past civilizations that valued the divine nature of the soul. This approach is meant to help all individuals, regardless of background, achieve a more genuine and peaceful life.</p>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <h5>Insightful Content</h5>
+          <p>The book is rich in history, soul searching, and practical advice. It’s written in accessible language, making profound wisdom applicable to everyday life.</p>
+        </div>
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <h5>Key Highlights</h5>
+          <p><strong>Chapter Three: The American Madness</strong> - The author reframes racial conflict as ‘The American Madness,’ not just a ‘Negro problem.’</p>
+        </div>
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+          <h5>Key Highlights</h5>
+          <p><strong>Chapter Five: Dwelling in Languages</strong> - Discusses James Baldwin’s blunt language and the difficulty people have confronting their irrational behaviors.</p>
+        </div>
+        <!-- Slide 6 -->
+        <div class="carousel-item">
+          <h5>Practical Advice</h5>
+          <p>“Become active to combat boredom. Life is meant to be lived dynamically, not confined to one space.”</p>
+        </div>
+        <!-- Slide 7 -->
+        <div class="carousel-item">
+          <h5>Overall Recommendation</h5>
+          <p>“Paris On My Mind” is a thorough examination of James Baldwin’s impact and offers a reminder to seek spiritual depth for a more peaceful existence. Perfect for fans of biographies, personal growth, and practical advice.</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#bookReviewCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#bookReviewCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
 </section>
 
+
+<!---- Gallery Section -->
+<div class="container">
+    <h1 class="my-4">Gallery</h1>
+    <div class="row">
+        <?php
+        $images = [
+            "images/gallery/Arc de Triomphe Paris-paris-on-my-mind.jpg",
+            "path/to/image2.jpg",
+            "path/to/image3.jpg",
+            // Add more image paths as needed
+        ];
+
+        foreach ($images as $image) {
+            echo '<div class="col-md-4 col-sm-6 gallery-item">';
+            echo '<img src="' . $image . '" alt="Gallery Image" class="img-fluid">';
+            echo '</div>';
+        }
+        ?>
+    </div>
+</div>
 
 <!-- FAQ Section -->
 <section class="section-padding bg-light" style="margin-top: 50px;"  data-aos="fade-up">
@@ -153,3 +219,7 @@
 </section>
 
 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
