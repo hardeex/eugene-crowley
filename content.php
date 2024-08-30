@@ -133,26 +133,37 @@
 </section>
 
 
-<!---- Gallery Section -->
-<div class="container">
-    <h1 class="my-4">Gallery</h1>
-    <div class="row">
-        <?php
-        $images = [
-            "images/gallery/Arc de Triomphe Paris-paris-on-my-mind.jpg",
-            "path/to/image2.jpg",
-            "path/to/image3.jpg",
-            // Add more image paths as needed
-        ];
+ <!-- Gallery Section -->
+ <div class="container">
+        <h1 class="my-4">Gallery</h1>
+        <div class="row">
+            <?php
+            $images = [
+                "images/gallery/Arc de Triomphe Paris-paris-on-my-mind.jpg",
+                "images/gallery/Black Pharoahs  Amsterdam-paris-on-my-min.jpg",
+                "images/gallery/Buckingham Palace London-paris-on-my-mind.jpg",
+                "images/gallery/Central City Buenos Aires -paris-on-my-mind.jpg ",
+                "images/gallery/Central City Buenos Aires-paris-on-my-mind.jpg",
+                "images/gallery/Downtown- St. Joseph-paris-on-my-mind.jpg",
+                "images/gallery/Elizabeth Tower London-paris-on-my-mind.jpg",
+                "images/gallery/Masonic Temple-paris-on-my-mind.jpg",
+                "images/gallery/Palermo Bueno-paris-on-mind.jpg",
+                "images/gallery/Pao de Acucar -paris-on-mind.jpg ",
+                "images/gallery/paris-on-mind-research-process.jpg",
+                "images/gallery/Skyline of St. Louis-paris-on-my-mind.jpg",
+                "images/gallery/status-during-paris-on-my-mind-reserach.jpg",
+            ];
 
-        foreach ($images as $image) {
-            echo '<div class="col-md-4 col-sm-6 gallery-item">';
-            echo '<img src="' . $image . '" alt="Gallery Image" class="img-fluid">';
-            echo '</div>';
-        }
-        ?>
+            foreach ($images as $image) {
+                echo '<div class="col-md-4 col-sm-6 mb-4">';
+                echo '<a href="' . $image . '" data-fancybox="gallery" data-caption="Gallery Image">';
+                echo '<img src="' . $image . '" alt="Gallery Image" class="img-fluid rounded">';
+                echo '</a>';
+                echo '</div>';
+            }
+            ?>
+        </div>
     </div>
-</div>
 
 <!-- FAQ Section -->
 <section class="section-padding bg-light" style="margin-top: 50px;"  data-aos="fade-up">
@@ -217,9 +228,3 @@
     </div>
   </div>
 </section>
-
-
-<!-- Bootstrap JS and dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -7,153 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <?php include 'header.php'; ?>
-    <style>
-     
-      
-        .book-cover {
-            width: 100%;
-            border-radius: 15px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
 
-        .book-cover-wrapper {
-            overflow: hidden;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: box-shadow 0.3s ease;
-        }
-
-        .book-cover-wrapper:hover {
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .book-cover:hover {
-            transform: scale(1.05);
-        }
-
-        .section-title {
-            font-size: 1.8rem;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            color: #343a40;
-            position: relative;
-            padding-bottom: 10px;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 50px;
-            height: 4px;
-            background: #007bff;
-            border-radius: 2px;
-        }
-
-        .book-details p {
-            font-size: 1rem;
-            margin-bottom: 10px;
-        }
-
-        .product-details-list {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .product-details-list li {
-            font-size: 1rem;
-            margin-bottom: 5px;
-            cursor: pointer;
-            transition: color 0.3s ease;
-        }
-
-        .product-details-list li:hover {
-            color: #007bff;
-        }
-
-        .genre-section {
-            background: #007bff;
-            color: white;
-            padding: 60px 0;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .genre-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .genre-item {
-            background: #0056b3;
-            border-radius: 10px;
-            padding: 20px;
-            flex: 1 1 200px;
-            max-width: 250px;
-            color: white;
-            transition: background 0.3s ease;
-            position: relative;
-        }
-
-        .genre-item:hover {
-            background: #003d80;
-        }
-
-        .genre-item h4 {
-            font-size: 1.5rem;
-            margin: 0;
-        }
-
-        .counter {
-            font-size: 2rem;
-            font-weight: bold;
-            margin: 10px 0;
-            position: absolute;
-            top: 10px;
-            right: 20px;
-        }
-
-        .genre-item p {
-            font-size: 1rem;
-        }
-
-        .book-review {
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .book-review h3 {
-            margin-bottom: 20px;
-            font-size: 1.8rem;
-        }
-
-        .book-review p {
-            font-size: 1rem;
-            line-height: 1.6;
-            color: #555;
-        }
-
-        .book-review p strong {
-            color: #007bff;
-        }
-
-        .carousel-item img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        @media (max-width: 767px) {
-            .book-cover {
-                margin-bottom: 20px;
-            }
-        }
-    </style>
 </head>
 <body>
     <!-- Book Section -->
@@ -216,39 +70,41 @@
         </div>
     </section>
 
-    <!-- Genre Distribution Section -->
-    <section class="genre-section">
-        <div class="container">
-            <h2 class="text-center mb-4">Genre Distribution</h2>
-            <div class="genre-container">
-                <div class="genre-item" data-genre="25" data-genre-name="Fiction"> <br><br>
-                    <h4>Fiction</h4>
-                    <div class="counter">0%</div>
-                    <p>Engaging narratives and creative storytelling.</p>
-                </div>
-                <div class="genre-item" data-genre="20" data-genre-name="Suspense"> <br> <br>
-                    <h4>Suspense</h4>
-                    <div class="counter">0%</div>
-                    <p>Thrilling plots and gripping suspense.</p>
-                </div>
-                <div class="genre-item" data-genre="15" data-genre-name="Biography"> <br><br>
-                    <h4>Biography</h4>
-                    <div class="counter">0%</div>
-                    <p>Insightful life stories and personal experiences.</p>
-                </div>
-                <div class="genre-item" data-genre="10" data-genre-name="Self-Help"> <br><br>
-                    <h4>Self-Help</h4>
-                    <div class="counter">0%</div>
-                    <p>Guidance for personal development and growth.</p>
-                </div>
-                <div class="genre-item" data-genre="30" data-genre-name="Religion"> <br><br>
-                    <h4>Religion</h4>
-                    <div class="counter">0%</div>
-                    <p>Explorations of spiritual and religious themes.</p>
-                </div>
+
+<!-- Genre Distribution Section -->
+ 
+<section class="genre-page genre-section">
+    <div class="container">
+        <h2 class="text-center mb-4">Genre Distribution</h2>
+        <div class="genre-container">
+            <div class="genre-item" data-genre="25" data-genre-name="Fiction"> <br><br>
+                <h4>Fiction</h4>
+                <div class="counter">25%</div>
+                <p>Engaging narratives and creative storytelling.</p>
+            </div>
+            <div class="genre-item" data-genre="20" data-genre-name="Suspense"> <br> <br>
+                <h4>Suspense</h4>
+                <div class="counter">20%</div>
+                <p>Thrilling plots and gripping suspense.</p>
+            </div>
+            <div class="genre-item" data-genre="15" data-genre-name="Biography"> <br><br>
+                <h4>Biography</h4>
+                <div class="counter">15%</div>
+                <p>Insightful life stories and personal experiences.</p>
+            </div>
+            <div class="genre-item" data-genre="10" data-genre-name="Self-Help"> <br><br>
+                <h4>Self-Help</h4>
+                <div class="counter">10%</div>
+                <p>Guidance for personal development and growth.</p>
+            </div>
+            <div class="genre-item" data-genre="30" data-genre-name="Religion"> <br><br>
+                <h4>Religion</h4>
+                <div class="counter">30%</div>
+                <p>Explorations of spiritual and religious themes.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Book Review Carousel Section -->
     <section class="section-padding">

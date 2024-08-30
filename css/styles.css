@@ -354,7 +354,7 @@ a:active {
   }
   
 
-  .gallery-item {
+  /* .gallery-item {
     margin-bottom: 15px;
     overflow: hidden;
     position: relative;
@@ -372,6 +372,27 @@ a:active {
 .gap-section{
   background-color: rgb(206, 206, 206) !important;
   text-align: justify;
+} */
+
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.gallery-item img {
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+}
+.gallery-item a {
+  display: block;
 }
  
   @media (max-width: 767.98px) {
