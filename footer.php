@@ -22,7 +22,7 @@
       <div class="col-md-4 mb-3">
         <h5>About</h5>
         <p>Learn more about the author, Eugene Crowley, and his works. Discover his journey, achievements, and insights.</p>
-        <a href="#" class="btn btn-primary" style="color: white;">Read More</a>
+        <a href="#" class="btn btn-primary" title="The author of Paris on my mind by Eugene Crowley" style="color: white;">Read More</a>
       </div>
       
       <!-- Quick Links -->

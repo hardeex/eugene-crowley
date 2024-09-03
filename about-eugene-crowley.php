@@ -12,13 +12,19 @@
         <p>Mr. Crowley wants to share his compassion and enthusiasm for wanting our culture to return to its roots with Eastern civilizations. He encourages the cultivation of man's inner resources, which would give him his true spiritual identity and allow him to live life as the great prophets and philosophers had directed man to know himself. In his compassion to help humanity open its mind, Crowley wishes our nation and the rest of Western culture would adopt the great lessons and wisdom of the past to seek a more orderly and peaceful society.</p>
         <p>In May 2016, Crowley participated in a James Baldwin conference at the American University in Paris. He spoke about “James Baldwin in a Post-Racial America”. This essay is included in <em>Paris on My Mind</em>. Baldwin echoed the wisdom of ancient scholars. Most people in our society are searching for identification and meaning in external objects. The correct place to look is within to discover the treasures of the mind that past mystics and prophets employed. They were the role models of the past. They should be role models for us today.</p>
         <div class="social-links mt-4">
-          <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon me-3">
-            <i class="bi bi-twitter"></i> <!-- Use Bootstrap Icons or any other icon library -->
+          <a href="https://x.com/eugenecrowley28?s=11" target="_blank" class="social-icon me-3" title="Eugene Crowley- The author of Paris on my Mind  Twitter Account">
+            <i class="bi bi-twitter"></i> 
           </a>
-          <a href="https://facebook.com/yourprofile" target="_blank" class="social-icon me-3">
+
+          <a href="https://www.instagram.com/yourprofile" class="btn btn-outline-secondary me-2">
+               <i class="fab fa-instagram"></i> Follow us on Instagram
+          </a>
+
+          <a href="https://www.facebook.com/share/So2KTnT6v52SdyEF/?mibextid=LQQJ4d" target="_blank" class="social-icon me-3" title="Eugene Crowley- The author of Paris on my Mind  Facebook Account">
             <i class="bi bi-facebook"></i>
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+
+          <a href="#" target="_blank" class="social-icon" title="Eugene Crowley- The author of Paris on my Mind  Linkeln Account">
             <i class="bi bi-linkedin"></i>
           </a>
         </div>

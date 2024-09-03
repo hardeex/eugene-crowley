@@ -16,7 +16,7 @@
                 <p class="book-description">
                     Paris On My Mind gives the truths of the past for its readers to become victors instead of victims over social conflicts. The first two chapters give the author's early connection with Paris, his hometown's French founder, and his participation in a conference at the American University in Paris. The book reveals Baldwin's views on racism, observations, solutions, and consequences, urging readers to use wisdom from the past to conquer their adversaries.
                 </p>
-                <a href="about-paris-on-my-mind.php" class="btn btn-primary">View Details</a>
+                <a href="about-paris-on-my-mind.php" class="btn btn-primary" title="About Eugene Crowley- The author of Paris on my Mind">View Details</a>
             </div>
 
         <!-- Book 1 -->
@@ -33,7 +33,7 @@
                 <p class="book-description">
                     Eugene Crowley Jr. uses elements of philosophy, history, mythology, spiritual issues, scientific issues, and social elements to illustrate how Western civilization has neglected the knowledge and acts of self-realization. Integrating many cultures and societies throughout time, the author references beliefs, customs, and religions to show how other cultures live in a more awakened state.
                 </p>
-                <a href="#" class="btn btn-primary">View Details</a>
+                <a href="#" class="btn btn-primary" title="The Upside down by Eugene Crowley">View Details</a>
             </div>
 
             <div class="col-md-4 book-cover">

@@ -17,18 +17,24 @@
         <h1 class="display-3 fw-bold mb-3">Empower Your Mind</h1>
         <h2 class="display-4 mb-4">Discover Transformative Insights</h2>
         <p class="lead mb-5">Join us on a journey through literature and thought, and unlock new perspectives to elevate your life.</p>
-        <a href="#learn-more" class="btn btn-primary btn-lg px-4 py-2">Learn More</a>
+        <a href="about-eugene-crowley.php" class="btn btn-primary btn-lg px-4 py-2">Learn More</a>
 
         <!-- Store Icons -->
         <div class="store-icons mt-4">
-          <a href="#" target="_blank" class="store-icon me-3">
+          <a href="https://www.amazon.com/Paris-Mind-Thoughts-Baldwin-Harlem/dp/1087922771" target="_blank" class="store-icon me-3">
             <img src="images/amazon.png" alt="Amazon" class="img-fluid">
           </a>
           <a href="#" target="_blank" class="store-icon me-3">
             <img src="images/barnes-and-noble.png" alt="Barnes & Noble" class="img-fluid">
           </a>
-          <a href="https://www.booksamillion.com" target="_blank" class="store-icon">
+          <a href="#" target="_blank" class="store-icon">
             <img src="images/IngramSpark.png" alt="IngramSpark" class="img-fluid">
+          </a>
+          <a href="https://www.goodreads.com/book/show/120667446-paris-on-my-mind" target="_blank" class="store-icon">
+            <img src="images/goodRead.png" alt="IngramSpark" class="img-fluid" style="height: 50px; width: 50px; margin-left: 10px">
+          </a>
+          <a href="https://blackbookstore.com/products/paris-on-my-mind-9781087922775" target="_blank" class="store-icon">
+            <img src="images/BlackBookstore_Logo.avif" alt="IngramSpark" class="img-fluid" style="height: 50px; width: 80px; margin-left: 10px">
           </a>
         </div>
       </div>

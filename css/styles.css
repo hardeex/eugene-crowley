@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #f13b3a;
+    /* --primary-color: #f13b3a; */
+    --primary-color: #5F93C2;
     --hover-color: black;
   }
 
@@ -343,97 +344,13 @@ a:active {
     font-weight: 900;
   }
   
-  /* .accordion-button.collapsed::after {
-    content: '\f054'; 
-  } */
-  
+
   .accordion-body {
     padding: 1rem;
     background-color: #fff;
     border: 1px solid #ddd;
   }
+
+
   
-
-  /* .gallery-item {
-    margin-bottom: 15px;
-    overflow: hidden;
-    position: relative;
-}
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-.gallery-item:hover img {
-    transform: scale(1.05);
-}
-
-
-.gap-section{
-  background-color: rgb(206, 206, 206) !important;
-  text-align: justify;
-} */
-
-
-.gallery-item {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.gallery-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-.gallery-item img {
-  border-radius: 8px;
-  transition: opacity 0.3s ease;
-}
-.gallery-item a {
-  display: block;
-}
  
-  @media (max-width: 767.98px) {
-
-    .hero-section {
-        text-align: center;
-      }
-      .hero-section img {
-        margin-bottom: 1.5rem;
-      }
-
-    .book-cover-wrapper {
-      margin-bottom: 1.5rem;
-    }
-
-    .book-title {
-      text-align: center;
-    }
-    
-    .genre-item {
-      flex: 1 1 45%;
-    }
-
-    .newsletter-form input[type="email"] {
-        max-width: 100%;
-      }
-  
-      .newsletter-form button {
-        width: 100%;
-      }
-
-      .book-cover {
-        text-align: center;
-        align-items: center;
-        margin: 0 auto;
-      }
-  }
-
-  @media (max-width: 479.98px) {
-    .genre-item {
-      flex: 1 1 100%;
-    }
-  }
-  

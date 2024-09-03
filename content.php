@@ -11,7 +11,7 @@
       <p>Paris On My Mind gives the truths of the past for its readers to become victors instead of victims over social conflicts. The first two chapters give the author's early connection with Paris since his hometown, St. Joseph, Missouri, had a French founder, Joseph Robidoux. After participating in a conference, "A Language To Dwell In: James Baldwin, Paris, and International Visions" at the American University in Paris in May 2016, the author wrote his book. Baldwin depended on religion and the wisdom of the past in confronting social ills. Blacks, Whites, young, and old can use the wisdom of the past to conquer their adversaries.</p>
         <p>Eugene Crowley taught English grammar and World Literature for 32 years in Chicago's Public Schools. He has a master's degree in General Psychology. Mr. Crowley authored Upside Down World: The Loss of the Sacred Cosmos in 2009.            
         </p>
-        <a href="about-paris-on-my-mind.php" class="btn btn-primary" style="color: white;">Learn More</a>  
+        <a href="about-paris-on-my-mind.php" title="paris on my mind by Eugene Crowley" class="btn btn-primary" style="color: white;">Learn More</a>  
        
         </div>
       </div>
@@ -22,7 +22,7 @@
 
 <!--- About the author section --->
 
-<section class="section-padding bg-light gap-section" data-aos="fade-up" >
+<section class="section-padding bg-light gap-section" data-aos="fade-up" style="background-color: black !important; color: white" >
   <div class="container">
     <h3 class="text-center mb-4">About the Author</h3>
     <div class="row align-items-center">
@@ -32,7 +32,7 @@
       <div class="col-lg-8 col-md-6">
         <p>Eugene Crowley, Jr., was born in St. Joseph, Missouri, near the end of World War II. He spent thirty-two years teaching grammar and literature in Chicago's public schools from 1969-2001. He earned a master's degree in general psychology from Roosevelt University in Chicago in 1989. He is a former member of the Jungian Institute in Evanston, Illinois. He has traveled throughout Europe and made a trip to South America in 2002.</p>
         <p>Mr. Crowley published <em>Upside Down World: The Loss of the Sacred Cosmos</em> in 2009 with the American Book Publishers in Salt Lake City. He extended the focus of his master’s thesis, "Meaning in Life for Urban Adolescents", to adults by encouraging them to reach a level of maturity by living more harmoniously with themselves, their fellow man, and the Universe.</p>
-        <a href="about-eugene-crowley.php" class="btn btn-primary" style="color: white;">Learn More</a>  
+        <a href="about-eugene-crowley.php" title="About Eugene Crowley- The author of Paris on my Mind" class="btn btn-primary" style="color: white;">Learn More</a>  
        
         </div>
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
@@ -133,37 +133,6 @@
 </section>
 
 
- <!-- Gallery Section -->
- <div class="container">
-        <h1 class="my-4">Gallery</h1>
-        <div class="row">
-            <?php
-            $images = [
-                "images/gallery/Arc de Triomphe Paris-paris-on-my-mind.jpg",
-                "images/gallery/Black Pharoahs  Amsterdam-paris-on-my-min.jpg",
-                "images/gallery/Buckingham Palace London-paris-on-my-mind.jpg",
-                "images/gallery/Central City Buenos Aires -paris-on-my-mind.jpg ",
-                "images/gallery/Central City Buenos Aires-paris-on-my-mind.jpg",
-                "images/gallery/Downtown- St. Joseph-paris-on-my-mind.jpg",
-                "images/gallery/Elizabeth Tower London-paris-on-my-mind.jpg",
-                "images/gallery/Masonic Temple-paris-on-my-mind.jpg",
-                "images/gallery/Palermo Bueno-paris-on-mind.jpg",
-                "images/gallery/Pao de Acucar -paris-on-mind.jpg ",
-                "images/gallery/paris-on-mind-research-process.jpg",
-                "images/gallery/Skyline of St. Louis-paris-on-my-mind.jpg",
-                "images/gallery/status-during-paris-on-my-mind-reserach.jpg",
-            ];
-
-            foreach ($images as $image) {
-                echo '<div class="col-md-4 col-sm-6 mb-4">';
-                echo '<a href="' . $image . '" data-fancybox="gallery" data-caption="Gallery Image">';
-                echo '<img src="' . $image . '" alt="Gallery Image" class="img-fluid rounded">';
-                echo '</a>';
-                echo '</div>';
-            }
-            ?>
-        </div>
-    </div>
 
 <!-- FAQ Section -->
 <section class="section-padding bg-light" style="margin-top: 50px;"  data-aos="fade-up">
